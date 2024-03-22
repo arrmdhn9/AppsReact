@@ -1,5 +1,13 @@
 {
   "expo": {
+    "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts": ["./assets/fonts/Poppins-Regular.ttf"]
+        }
+      ]
+    ],
     "name": "expoapps",
     "slug": "expoapps",
     "version": "1.0.0",
@@ -9,11 +17,10 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
+      "tintColor": "#FFFFFF",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
